@@ -1,0 +1,30 @@
+section#news {
+  img {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .news-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 1rem;
+
+      article.new {
+        width: 45%;
+        margin: 0;
+
+        &:nth-child(3) {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .news-wrapper article.new {
+      width: 30%;
+      margin: 0 !important;
+    }
+  }
+}

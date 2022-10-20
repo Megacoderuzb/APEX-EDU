@@ -1,0 +1,20 @@
+.button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: $sariq;
+  color: $qora;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1.2em 3em;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}

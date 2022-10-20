@@ -1,0 +1,35 @@
+section#clients {
+  //   img {
+  //     width: 100%;
+  //   }
+  .stars i {
+    color: #fdb44b;
+  }
+  @media (min-width: 768px) {
+    .client-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      row-gap: 1rem;
+
+      article {
+        width: 45%;
+        margin: 1rem auto;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .client-wrapper {
+      article {
+        width: 30%;
+        margin: 1rem !important;
+      }
+    }
+  }
+}

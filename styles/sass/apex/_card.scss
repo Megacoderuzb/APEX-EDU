@@ -1,0 +1,20 @@
+.card {
+  box-shadow: 0 1rem 1rem rgba($seriy, 0.5);
+
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+
+  &-body {
+    padding: 1rem;
+
+    p {
+      margin: 1rem 0;
+    }
+
+    .button {
+      display: block;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+section#contact-us {
+  @media (min-width: 768px) {
+    .contact-wrapper {
+      .links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.4rem;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .contact-wrapper {
+      .links {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+    }
+  }
+}

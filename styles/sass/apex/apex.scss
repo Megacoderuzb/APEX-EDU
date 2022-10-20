@@ -1,0 +1,25 @@
+@import "variables";
+@import "reset";
+@import "utils";
+@import "container";
+@import "button";
+@import "card";
+@import "input";
+
+.wrapper {
+  background: linear-gradient(rgb(0, 68, 91), rgb(0, 68, 91)),
+    url(../../images/apex/showcase-bg.png) center top / cover;
+  background-blend-mode: multiply;
+}
+
+@import "header";
+@import "showcase";
+@import "news";
+@import "teachers";
+@import "courses";
+@import "fotolavhalar";
+@import "footer";
+@import "tutorials";
+@import "results";
+@import "clients";
+@import "contact";

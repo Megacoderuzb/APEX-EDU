@@ -1,0 +1,30 @@
+section#videos {
+  .video-wrapper {
+    gap: 1rem;
+  }
+  @media (min-width: 768px) {
+    .video-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      row-gap: 1rem;
+
+      article {
+        width: 45%;
+        margin: 0 auto;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .video-wrapper article {
+      width: 30%;
+      margin: 0 !important;
+    }
+  }
+}

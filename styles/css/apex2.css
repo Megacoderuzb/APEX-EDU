@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(100deg, #ecfefa, #bee9ff, #dbeaff, #f3dbff);
+}
+
+.dropdown {
+  color: #000;
+}
+
+header#main-header ul {
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 2rem;
+}
+
+section#showcase h1 {
+  color: #000;
+  text-align: center;
+  font-size: 34px;
+}
+section#showcase p {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+section#showcase .flex {
+  gap: 2rem;
+}
+@media (min-width: 1200px) {
+  section#showcase ul {
+    display: flex;
+    gap: 1rem;
+  }
+  section#showcase .dropdown {
+    display: none;
+  }
+  section#showcase .half {
+    width: 45%;
+  }
+  section#showcase .column {
+    flex-direction: row;
+  }
+  section#showcase h1 {
+    text-align: left;
+    font-size: 43px;
+  }
+  section#showcase p {
+    text-align: left;
+  }
+}
+
+footer#main-footer {
+  background-color: #bee9ff;
+}
+
+footer#main-footer {
+  background-color: #bee9ff;
+  color: #000;
+  padding: 1rem 0;
+}
+@media (min-width: 768px) {
+  footer#main-footer .parent {
+    display: flex;
+    gap: 1rem;
+  }
+  footer#main-footer .parent > * {
+    flex: 1;
+  }
+  footer#main-footer form {
+    display: block;
+  }
+  footer#main-footer .button {
+    display: block;
+    width: 100%;
+    background-color: #00445b;
+  }
+}
+footer#main-footer h2 {
+  color: #000;
+}
+footer#main-footer .logo {
+  margin: 1rem 0;
+}
+footer#main-footer .logo span {
+  display: inline-block;
+  margin-left: 1rem;
+}/*# sourceMappingURL=apex2.css.map */

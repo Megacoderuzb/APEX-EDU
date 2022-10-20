@@ -1,0 +1,33 @@
+section#courses {
+  img {
+          width: 100%;
+        }
+  @media (min-width: 768px) {
+    .course-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 1rem;
+
+      article {
+        width: 45%;
+        margin: 0 auto;
+
+        &:nth-child(3) {
+          margin: 0 auto;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .course-wrapper article {
+      width: 30%;
+      margin: 0 !important;
+    }
+  }
+}
